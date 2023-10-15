@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Portfolio
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css"/>
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    </head>
+    <body>
+         <div id="header">
+            
+            
+            <div class="container">
+                <nav>
+                 <img src="data:image/png;base64,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" class="logo" >
+                 <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                 </ul> 
+                </nav>
+                <div class="header-text">
+                    <p>Web developer</p>
+                    <h1>Hi,I am<span><br> Himadri Majumder</span><br> from India</h1>
+                </div>
+            </div>
+         </div>
+<div id ="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw4RtrnubWjk3gkKav5X539EgVtFBPfdcJ3w&usqp=CAU"
+            </div></div>
+            <div class="about-col-2">
+                <h1 class="sub">About Me</h1>
+                <p>I am Himadri Majumder from Kolkata, India. I am
+                    currently pursuing my Bachelor’s degree in
+                    Engineering at Vellore Institute Of Technology,
+                    Vellore in Information Technology.
+                    I am now developing my skills in
+                    Android development and have keen interest in
+                    Cybersecurity and Networking. I have build my skills
+                    in C language(implementing DSA), Java, Front-End
+                    development.
+                    I am proficient in speaking English
+                    and Hindi language and conceptualized my soft skills
+                    as well. I would like to learn and acquire and my
+                    skills and would like to acquire my summer
+                    internship in any of these domains
+                </p>
+                    <div class="titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')"">Skills</p>
+                        
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="contents active-tab" id="skills">
+                      <ul>
+                        <li><span>Web Developement</span><br>Making webpages for projects</li>
+                        <li><span>Java programming</span><br>Making java apps</li>
+                        <li><span>App Development</span><br>Making app interfaces</li>
+                      </ul>  
+                    </div>
+                    <div class="contents" id="education">
+                          <li><span>2007-2021</span><br>Studied in Salt Lake School</li>
+                          <li><span>2021-2025</span><br>VIT Vellore</li>
+                          
+                        </ul>  
+                    </div>
+                      
+            </div>
+        </div>
+    </div>
+</div>
+<div id="services">
+    <div class="container">
+       <h1 class="sub-title">My Services</h1> 
+       <div class="services-list">
+        <div>
+            <h3>Web Design</h3>
+            <p>Our web design services are your gateway to a visually stunning and user-friendly online presence. Our expert designers craft custom websites that captivate your audience and convey your brand's unique identity. We prioritize responsive design, ensuring your site looks flawless on all devices. With a focus on user experience, we optimize navigation and load times for seamless browsing. Our designs are not just aesthetically pleasing; they are also optimized for search engines to boost your online visibility. Elevate your online presence with our web design services and leave a lasting impression on your visitors.</p>
+        <a href="#">Learn more</a>
+        </div>
+        <div>
+            <h3>App Design</h3>
+            <p>Our app design services bring your vision to life, creating intuitive and engaging mobile experiences. Our talented designers blend creativity with functionality to design apps that stand out in crowded app stores. We prioritize user-centric design, ensuring users enjoy seamless navigation and a delightful interface. From wireframing to prototyping, we meticulously craft every detail of your app's design. Our designs are not only visually appealing but also optimized for performance, guaranteeing a smooth user experience. Elevate your app's potential with our design services and make a lasting impact in the digital landscape.</p>
+        <a href="#">Learn more</a>
+        </div>
+     </div>
+    </div>
+</div>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Task</h1> 
+        <div class="work-list">
+            <div class="work">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGfK2ka4KeQlP6lLe2AN3sVFH8m2UjxS8V8w&usqp=CAU">
+                <div class="layer">
+                    <h3>Social Network website</h3>
+                    <p> We can connect to the websites as well as the application with  any type of desktop which will be having operating system as Windows, Linux.</p>
+                    <a href="#">Link avaiable</a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiYCvDIrCJ1x1pTlmNR8ziI0eg-t-lVC0o4g&usqp=CAU">
+                <div class="layer">
+                    <h3>Social Network app</h3>
+                    <p> We can connect to the application with  any type of smartphone which will be having operating system as android, ios.</p>
+                    <a href="#">Link avaible</a>
+            </div>
+            <div class="work">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZG7fgy-uQUrWTX3QJ560cB82EWH75u7NeAA&usqp=CAU">
+                <div class="layer">
+                    <h3>Shopping App </h3>
+                    <p> We can connect to the application with  any type of desktop which will be having operating system as android,ios.</p>
+                    <a href="#">Link available</a>
+            </div>
+        </div>
+        <a href="#" class="btn">See more about</a>
+    </div>
+   
+</div>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="left">
+                <h1 class="title">Contact details</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>himadrimajumder2014@gmail.com</p>
+                <p><i class="fa-solid fa-paper-plane"></i>9786543451</p>
+                <div class="icons">
+                    
+                    <a href="https://facebook.com/">Facebook</a>
+                    <a href="https://twitter.com/">Twitter</a>
+                    <a href="https://instagram.com/">Instagram</a>
+                    <a href="https://linkedin.com/">Linkdin</a>
+
+                </div>
+                <a href="e:\Himadri Majumder new resume (1)(1).pdf" download class="btn btn3">Download Resume</a>
+            </div>
+            <div class="right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your email" required>
+                <textarea name="message" rows="5" placeholder="Your message"></textarea>
+                <button type="submit" class="btn btn3">Submit It</button>
+             </form>
+             <span id="msg1">Hello Everyone</span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright   # Himadri. A new portfolio.limited</p>
+    </div>
+</div>
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+   var tabcontents=document.getElementsByClassName("contents");
+   function opentab(tabname)
+   {
+    for(tablink of tablinks)
+    {
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents)
+    {
+        tabcontent.classList.remove("active-tab")
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+   }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycby_YmL2aCcpEfuTHvRefw2voVH76Wlk-DFdvox4ZCO6RFXaIaghCsz1_TwqzWtA0ugUYA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg1=document.getElementById("msg1")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg1.innerHTML = "The message has been sent successfully"
+            setTimeout(function(){
+                msg1.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+    </body>
+</html>
